@@ -21,7 +21,7 @@ const Tag = () => {
         }
 
         <input 
-        className='w-10/12 text-lgpy-2 rounded-lg mb-[3px] text-center'
+        className='w-10/12 text-lg py-2 rounded-lg mb-[3px] text-center'
         onChange={(event) => setTag(event.target.value)}
         value={tag} />
 
